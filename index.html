@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareConnect | Doctor Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">CareConnect</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-outline" href="#contact">Book Visit</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Trusted Medical Care</p>
+          <h1>Modern website template for clinics and doctors</h1>
+          <p class="lead">
+            Help patients find the right care faster with clear service information,
+            online scheduling, and a professional digital presence.
+          </p>
+          <div class="hero-cta">
+            <a class="btn" href="#contact">Schedule Appointment</a>
+            <a class="btn btn-ghost" href="#services">Explore Services</a>
+          </div>
+          <ul class="hero-highlights">
+            <li>HIPAA-conscious contact flow</li>
+            <li>Mobile-first design</li>
+            <li>Easy to customize</li>
+          </ul>
+        </div>
+        <aside class="appointment-card" aria-label="appointment form">
+          <h2>Request an Appointment</h2>
+          <form>
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="jane@email.com" />
+
+            <label for="service">Service</label>
+            <select id="service" name="service">
+              <option>General Consultation</option>
+              <option>Pediatrics</option>
+              <option>Cardiology</option>
+              <option>Telehealth</option>
+            </select>
+
+            <button type="submit" class="btn full">Send Request</button>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Core Services</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Primary Care</h3>
+            <p>Routine checkups, preventive screenings, and personalized treatment plans.</p>
+          </article>
+          <article class="card">
+            <h3>Telemedicine</h3>
+            <p>Secure virtual consultations for follow-ups and non-emergency care.</p>
+          </article>
+          <article class="card">
+            <h3>Chronic Care</h3>
+            <p>Long-term support for diabetes, hypertension, and cardiovascular health.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-muted">
+      <div class="container split">
+        <div>
+          <h2>Why patients choose your practice</h2>
+          <p>
+            Communicate your mission, credentials, and patient-centered approach with a
+            clear, reassuring layout that builds trust from the first click.
+          </p>
+        </div>
+        <ul class="check-list">
+          <li>Board-certified physicians</li>
+          <li>Extended weekday hours</li>
+          <li>Same-day urgent visits</li>
+          <li>Digital records and reminders</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section">
+      <div class="container">
+        <h2>Patient Testimonials</h2>
+        <div class="card-grid">
+          <blockquote class="card quote">
+            “The online booking was easy, and the doctor explained everything clearly.”
+            <cite>— M. Rivera</cite>
+          </blockquote>
+          <blockquote class="card quote">
+            “Great care team and very responsive telehealth support.”
+            <cite>— T. Nguyen</cite>
+          </blockquote>
+          <blockquote class="card quote">
+            “Professional, warm, and efficient from check-in to follow-up.”
+            <cite>— A. Johnson</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>Contact</h2>
+        <p>123 Wellness Ave, Suite 400</p>
+        <p>New York, NY 10001</p>
+      </div>
+      <div>
+        <h3>Hours</h3>
+        <p>Mon–Fri: 8:00 AM – 6:00 PM</p>
+        <p>Sat: 9:00 AM – 1:00 PM</p>
+      </div>
+      <div>
+        <h3>Call</h3>
+        <p>(555) 123-4567</p>
+        <p>hello@careconnectclinic.com</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
